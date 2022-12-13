@@ -1,7 +1,7 @@
 FROM debian:stable-slim as builder
 
 # VERSION of BItcoin Core to be build
-ARG VERSION=24.0
+ARG VERSION=24.0.1
 
 RUN apt-get update && apt-get install -y \
   build-essential \ 
